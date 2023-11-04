@@ -1,13 +1,25 @@
 import React from 'react'
 import './index.scss'
 import { AnimatedLetters } from '../AnimatedLetters'
+import { useEffect, useState } from 'react'
 
 function About() {
+const [letterClass, setLetterClass] = useState('text-animate')
+useEffect(() => {
+    const timer = setTimeout(() => {
+      setLetterClass('text-animate-hover');
+    }, 3000);
+  
+    // Return a cleanup function to clear the timer when the component unmounts.
+    return () => {
+      clearTimeout(timer);
+    };
+  }, []);
   return (
     <div className='container about-page'>
         <div className='text-zone'> 
             <h1>
-                <AnimatedLetters  strArray={['A','b','o','u','t','','m','e']} idx={15}/>
+                <AnimatedLetters letterClass={letterClass} strArray={['A','b','o','u','t','','m','e']} idx={15}/>
             </h1>
             <p>
                 I'm a fast paced learning web developer, I try to do things simple and faster way.
