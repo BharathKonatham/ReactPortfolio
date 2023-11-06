@@ -41,12 +41,12 @@ const Sidebar = () =>{
             </a>
         </li>
         <li>
-            <a target='_blank' rel='noreferrer' href=''>
+            <a target='_blank' rel='noreferrer' href='' onClick={e => e.preventDefault()}>
                 <FontAwesomeIcon icon={faYoutube} color='#4d4d4e' />
             </a>
         </li>
         <li>
-            <a target='_blank' rel='noreferrer' href=''>
+            <a target='_blank' rel='noreferrer' href='' onClick={e => e.preventDefault()} >
                 <FontAwesomeIcon icon={faSkype} color='#4d4d4e' />
             </a>
         </li>
