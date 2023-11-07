@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ReactPortfolio/static/css/main.07472baf.css",
+    "main.js": "/ReactPortfolio/static/js/main.a688063a.js",
+    "static/js/787.128fc6e9.chunk.js": "/ReactPortfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/helvetica-neu.ttf": "/ReactPortfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/Bharat-designstyle-summer-m.png": "/ReactPortfolio/static/media/Bharat-designstyle-summer-m.b2ea3a76c91fc3ca79c8.png",
+    "static/media/logo_sub.png": "/ReactPortfolio/static/media/logo_sub.19f3ab25ab15fd848b30.png",
+    "static/media/LaBelleAurore.woff2": "/ReactPortfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/49495205_0.jpg": "/ReactPortfolio/static/media/49495205_0.da72a58bd5bb3a13bfe6.jpg",
+    "static/media/logo-s.png": "/ReactPortfolio/static/media/logo-s.bfc9f81846bda5218dab.png",
+    "static/media/CoolveticaRg-Regular.woff2": "/ReactPortfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "static/media/logo.svg": "/ReactPortfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ReactPortfolio/index.html",
+    "main.07472baf.css.map": "/ReactPortfolio/static/css/main.07472baf.css.map",
+    "main.a688063a.js.map": "/ReactPortfolio/static/js/main.a688063a.js.map",
+    "787.128fc6e9.chunk.js.map": "/ReactPortfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07472baf.css",
+    "static/js/main.a688063a.js"
+  ]
+}
