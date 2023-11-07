@@ -3,6 +3,7 @@ import './index.scss'
 import { AnimatedLetters } from '../AnimatedLetters'
 import { useState,useEffect,useRef } from 'react'
 import emailjs from '@emailjs/browser'
+import { MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet'
 const Contact = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -65,6 +66,20 @@ const Contact = () => {
                     </form>
                 </div>
             </div> 
+        </div>
+        <div className='info-map'>
+            Bharath Konatham,
+            <br/>
+            699 saffron blvd, 30045 <br/>
+            Lawrenceville
+            <span>bharathreddyk121@gmail.com</span>
+        </div>
+        <div className='map-wrap'>
+        <MapContainer current={[44.96366,19.61045]} zoom={13}>
+                <TileLayer url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png' />
+                <Marker position={[44.96366,19.61045]} />
+                <Popup>Bharath lives here come over with a job offer</Popup>
+            </MapContainer>
         </div>
         <Loader type="pacman" />
         </>
